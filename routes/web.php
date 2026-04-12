@@ -1,7 +1,5 @@
 <?php
-
 use Illuminate\Support\Facades\Route;
-
 Route::get('/', function () {
     return view('welcome');
 });
@@ -25,4 +23,5 @@ Route::get('/katalog', function () {
 Route::get('/bantuan', function () {
     return view('bantuan');
 });
+
 
