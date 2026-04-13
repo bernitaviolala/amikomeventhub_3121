@@ -16,5 +16,6 @@
         <a href="/kontak" class="bg-gray-500 text-white px-4 py-2 rounded">Kontak</a>
     </div>
     
+
 </body>
 </html>

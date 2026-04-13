@@ -8,6 +8,7 @@
 
     <h1 class="text-2xl font-bold mb-4">Halaman Profil</h1>
     <p class="mb-6">Ini adalah profil praktikan</p>
+    <p class="mb-6">Nama: Bernita Viola Larrisa(24.12.3121)</p>
 
     <div class="space-x-3">
         <a href="/" class="bg-blue-500 text-white px-4 py-2 rounded">Home</a>
@@ -15,6 +16,6 @@
         <a href="/bantuan" class="bg-yellow-500 text-white px-4 py-2 rounded">Bantuan</a>
         <a href="/kontak" class="bg-gray-500 text-white px-4 py-2 rounded">Kontak</a>
     </div>
-    
+
 </body>
 </html>
