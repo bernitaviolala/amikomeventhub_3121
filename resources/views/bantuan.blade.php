@@ -15,5 +15,6 @@
         <a href="/katalog" class="bg-green-500 text-white px-4 py-2 rounded">Katalog</a>
         <a href="/kontak" class="bg-gray-500 text-white px-4 py-2 rounded">Kontak</a>
     </div>
+    
 </body>
 </html>
