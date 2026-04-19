@@ -64,3 +64,5 @@ Bernita Viola Larrisa
 Link: https://amikomeventhub-3121-main-nyhwkg.free.laravel.cloud/
 
 Tugas 1: https://github.com/bernitaviolala/amikomeventhub_3121.git
+
+Tugas 2: https://amikomeventhub-3121-main-nyhwkg.free.laravel.cloud/
