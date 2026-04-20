@@ -65,4 +65,9 @@ Link: https://amikomeventhub-3121-main-nyhwkg.free.laravel.cloud/
 
 Tugas 1: https://github.com/bernitaviolala/amikomeventhub_3121.git
 
-Tugas 2: https://amikomeventhub-3121-main-nyhwkg.free.laravel.cloud/
+Tugas 2: beranda: https://amikomeventhub-3121-main-nyhwkg.free.laravel.cloud/
+detail event: https://amikomeventhub-3121-main-nyhwkg.free.laravel.cloud/event-detail.html
+checkout: https://amikomeventhub-3121-main-nyhwkg.free.laravel.cloud/checkout.html
+Dashboard: https://amikomeventhub-3121-main-nyhwkg.free.laravel.cloud/dashboard
+tranaksi: https://amikomeventhub-3121-main-nyhwkg.free.laravel.cloud/ticket.html
+
