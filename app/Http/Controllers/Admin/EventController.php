@@ -7,5 +7,9 @@ use Illuminate\Http\Request;
 
 class EventController extends Controller
 {
-    //
+    // TAMPIL HALAMAN EVENT
+    public function index()
+    {
+        return view('admin.events');
+    }
 }
