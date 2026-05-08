@@ -23,6 +23,6 @@ class EventController extends Controller
 
     public function indexAdmin()
     {
-    return view('admin.events'); // sesuaikan nanti
+    return view('admin.event'); // sesuaikan nanti
     }
 }
