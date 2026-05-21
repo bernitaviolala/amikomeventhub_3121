@@ -102,10 +102,46 @@
 
                 Laporan Transaksi
             </a>
-            <!-- Kategori (tambahan tugas kamu) -->
-            <a href="{{ url('/admin/categories') }}"
-                class="flex items-center gap-3 px-4 py-3 hover:bg-indigo-800 rounded-xl font-bold transition">
-                Kategori
+            
+            <!-- Kategori (tugas uts) -->
+            <a href="{{ route('admin.categories.index') }}"
+            class="flex items-center gap-3 px-4 py-3 {{ request()->routeIs('admin.categories.*') ? 'bg-indigo-800 text-white' : 'hover:bg-indigo-800' }} rounded-xl font-bold transition">
+
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    class="w-5 h-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+
+                    <path stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M7 7h10M7 12h10M7 17h10" />
+
+                </svg>
+
+                <span>Kategori</span>
+
+            </a>
+
+            <a href="{{ route('admin.partners.index') }}"
+            class="flex items-center gap-3 px-4 py-3 {{ request()->routeIs('admin.partners.*') ? 'bg-indigo-800 text-white' : 'hover:bg-indigo-800' }} rounded-xl font-bold transition">
+
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    class="w-5 h-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+
+                    <path stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M17 20h5V4H2v16h5m10 0v-4a3 3 0 00-3-3H10a3 3 0 00-3 3v4m10 0H7m10-10a3 3 0 11-6 0 3 3 0 016 0zm-8 0a3 3 0 11-6 0 3 3 0 016 0z"/>
+
+                </svg>
+
+                <span>Partner</span>
+
             </a>
 
         </nav>
