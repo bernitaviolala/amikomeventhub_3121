@@ -71,3 +71,6 @@ checkout: https://amikomeventhub-3121-main-nyhwkg.free.laravel.cloud/checkout.ht
 Dashboard: https://amikomeventhub-3121-main-nyhwkg.free.laravel.cloud/dashboard
 tranaksi: https://amikomeventhub-3121-main-nyhwkg.free.laravel.cloud/ticket.html
 
+UTS: kategori: [http://127.0.0.1:8000/admin/categories](https://amikomeventhub-3121-main-nyhwkg.free.laravel.cloud/admin/categories)
+partners: https://amikomeventhub-3121-main-nyhwkg.free.laravel.cloud/admin/partners
+
