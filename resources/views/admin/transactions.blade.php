@@ -1,7 +1,7 @@
 @extends('layouts.admin')
+
 @section('content')
-<main class="flex-1 p-10 overflow-y-auto">
-        <header class="flex justify-between items-center mb-10">
+ <header class="flex justify-between items-center mb-10">
             <div>
                 <h1 class="text-3xl font-black">Laporan Transaksi</h1>
                 <p class="text-slate-500 font-medium">Pantau arus kas dan penjualan tiket Anda.</p>
@@ -140,5 +140,4 @@
                 </div>
             </div>
         </div>
-    </main>
-@endsection
+        @endsection
