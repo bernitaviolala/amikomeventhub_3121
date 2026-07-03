@@ -18,3 +18,10 @@ return Application::configure(basePath: dirname(__DIR__))
     ->withExceptions(function (Exceptions $exceptions): void {
         //
     })->create();
+
+    withMiddleware(function (Middleware $middleware) {
+     $middleware->validateCsrfTokens(except: [
+         '/midtrans/callback', // Mengecualikan route webhook Midtrans dari blokir CSRF
+     ]);
+ });
+
